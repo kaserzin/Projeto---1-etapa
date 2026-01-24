@@ -453,29 +453,25 @@ body {
   }
   .inicio-imagem img,
   .historia-imagem img {
-    width: 90%;
+    height: 50%;
   }
   .idolo-layout {
-    flex-direction: row;
+    flex-direction: column;
   }
   .idolo-tabela-wrapper {
-    width: 50%;
+    width: 100%;
   }
-  .idolo-info {
-    width: 50%;
+  .idolo-info img {
+    width: 100%;
   }
+
   .noticia-layout {
-    flex-direction: row;
-  }
-  .noticia-imagem {
-    width: 33.3333%;
+    flex-direction: column;
   }
   .noticia-imagem img {
-    height: 200px;
+    height: 5%;
   }
-  .noticia-conteudo {
-    width: 66.6667%;
-  }
+
 }
 
 
