@@ -541,7 +541,7 @@ body {
   box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: box-shadow 0.2s ease;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .alunos-card:hover {
@@ -560,9 +560,37 @@ body {
 .footer {
   background-color: #333333;
   color: white;
-  padding: 32px 0;
+  padding: 24px 32px;
   margin-top: 80px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 60px;
+  height: auto;
+  display: block;
+}
+
+
+
+/* responsividade para footer */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .footer-left,
+  .footer-right {
+    margin: 8px 0;
+  }
 }
 .html, body {
   height: 100%;
