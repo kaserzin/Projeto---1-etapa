@@ -91,10 +91,16 @@ body {
   font-size: 36px;
 }
 /* HEADER USADO EM TODAS AS SEÇÕES */
+section{
+  scroll-margin-top: 80px;
+}
+.container {
+  margin-top: 80px;
+}
 .section-header {
   background-color: #007bff;
   color: white;
-  margin-top: 68px;
+ /* margin-top: 68px; */
   padding: 16px 24px;
   border-radius: 8px;
   margin-bottom: 24px;
@@ -597,6 +603,7 @@ body {
 .html, body {
   height: 100%;
 }
+
 .body {
   background: #f5f5f5;
   min-height: 100vh;
@@ -699,7 +706,7 @@ html, body {
 html{
   scroll-behavior: smooth;
 }
-
+/*
 body {
   min-height: 100vh;
   display: flex;
@@ -709,7 +716,7 @@ body {
 .container {
   flex: 1;
 }
-
+*/
 .header,
 .footer {
   flex-shrink: 0;
@@ -726,3 +733,13 @@ body {
 
 
 
+body {
+  padding-top: 56px; /* altura exata do header */
+}
+.container {
+  padding-bottom: 40px;
+}
+main {
+  margin-top: 80px; /* espaço para o header fixo */
+  margin-bottom: 40px; /* respiro antes do footer */
+}
